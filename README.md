@@ -37,6 +37,7 @@ Disponibiliza um formulário para que o usuário envie dúvidas, sugestões ou m
 - **Luiz Antonio Morais** — RM: 562142  
 - **Nicolas Barnabe da Cruz** — RM: 561997  
 - **Guilherme Moura Badia** — RM: 561568  
+- **Deivid Ruan Marques Batista** — RM: 566356  
 
 ---
 
