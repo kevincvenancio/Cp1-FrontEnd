@@ -12,12 +12,14 @@
       <div class="overlay"></div>
 
       <div class="hero__content">
-        <nav class="nav">
-          <a href="../vinharia-agnello/src/pages/pagina2.html">Conheça nossa história</a>
-          <a href="../vinharia-agnello/src/pages/pagina3.html">Catálogo de vinhos</a>
-          <a href="../vinharia-agnello/src/pages/pagina4.html">Preparo do vinho</a>
-          <a href="../vinharia-agnello/src/pages/pagina5.html">Contato</a>
-        </nav>
+        <header>
+          <nav class="nav">
+            <a href="../vinharia-agnello/src/pages/pagina2.html">Conheça nossa história</a>
+            <a href="../vinharia-agnello/src/pages/pagina3.html">Catálogo de vinhos</a>
+            <a href="../vinharia-agnello/src/pages/pagina4.html">Preparo do vinho</a>
+            <a href="../vinharia-agnello/src/pages/pagina5.html">Contato</a>
+          </nav>
+        </header>
 
         <h1>Bem-vindo à Vinheria Agnello</h1>
         <h3>
@@ -28,7 +30,7 @@
         </h3>
         <h5>FRETE GRÁTIS PARA TODO O BRASIL EM COMPRAS ACIMA DE R$249,00</h5>
         
-        <div class="hero__imagens fade-in-on-scroll">
+        <section class="hero__imagens fade-in-on-scroll">
           <img src="src/assets/imgs/vinho 2.png" alt="imagem de vinho" />
           <p>
             Na Agnello, cada garrafa é uma viagem. Selecionamos vinhos com
@@ -41,32 +43,28 @@
             identidade. Porque na Agnello, vinho é memória, é cultura, é
             prazer.
           </p>
-        </div>
-
-        <!-- Não mexer, animação para aparecer os itens acima -->
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            const observer = new IntersectionObserver((entries) => {
-              entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                  entry.target.classList.add('show');
-                } else {
-                  entry.target.classList.remove('show');
-                }
-              });
-            }, {
-              threshold: 0.4
-            });
-        
-            const elements = document.querySelectorAll('.fade-in-on-scroll');
-            elements.forEach(el => observer.observe(el));
-          });
-        </script>
-        
-        
-        
-        
+        </section>
       </div>
     </main>
+
+    <!-- Não mexer, animação para aparecer os itens acima -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('show');
+            } else {
+              entry.target.classList.remove('show');
+            }
+          });
+        }, {
+          threshold: 0.4
+        });
+
+        const elements = document.querySelectorAll('.fade-in-on-scroll');
+        elements.forEach(el => observer.observe(el));
+      });
+    </script>
   </body>
 </html>
