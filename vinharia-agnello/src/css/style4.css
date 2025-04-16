@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #f9f9f9;
+    background-image: linear-gradient(to top, rgb(100, 32, 32), rgb(190, 129, 129));
     color: #333;
   }
   h1 {
@@ -21,6 +21,25 @@ body {
     margin-bottom: 10px;
   }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #aaa;
+}
+
+
+table{
+  background-color: #aaa;
+}
 
   
 
