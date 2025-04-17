@@ -41,8 +41,8 @@ Disponibiliza um formulário para que o usuário envie dúvidas, sugestões ou m
 
 ---
 
-## 🌐 Link para o site publicado no GitHub Pages
+## 🌐 Link para o site publicado na Vercel
 
-➡️ [Cole aqui o link do GitHub Pages quando disponível]
+➡️ https://cp1-front-end-ivory.vercel.app/index.html
 
 ---
