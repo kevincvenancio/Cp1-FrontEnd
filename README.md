@@ -31,16 +31,6 @@ Disponibiliza um formulário para que o usuário envie dúvidas, sugestões ou m
 
 ---
 
-## 👥 Integrantes do Projeto
-
-- **Kevin Carvalho Venancio** — RM: 561459  
-- **Luiz Antonio Morais** — RM: 562142  
-- **Nicolas Barnabe da Cruz** — RM: 561997  
-- **Guilherme Moura Badia** — RM: 561568  
-- **Deivid Ruan Marques Batista** — RM: 566356  
-
----
-
 ## 🌐 Link para o site publicado na Vercel
 
 ➡️ https://cp1-front-end-ivory.vercel.app/index.html
